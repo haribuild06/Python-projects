@@ -66,7 +66,7 @@ def display(h,date,month,year):
 
 
 #function calling and error handling
-call1 = inputs_processing(24.0,5,2006)
+call1 = inputs_processing(25,8,2026)
 if call1 != "ERROR":
    call2 = year_check(call1[2]) #2
    call3 = month_date_check(call1[0], call1[1], call2) #3
