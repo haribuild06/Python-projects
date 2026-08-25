@@ -60,5 +60,5 @@ def date_to_day(date, month, year):
 #test
             funct1 = formula(q,m,k,j)
             return day_correspounding(funct1) 
-funct3 = date_to_day(date=24, month=5, year=2006) #error
+funct3 = date_to_day(date=24, month=8, year=2026) #error
 print(funct3)   
